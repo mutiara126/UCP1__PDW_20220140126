@@ -1,0 +1,79 @@
+/* Custom CSS for Twennie Music Store */
+
+/* Hero Section */
+.hero-section {
+    background-color: #f8f9fa94;
+    padding: 100px 0;
+}
+
+/* Albums Section */
+.albums-section {
+    background-color: #ffffff;
+}
+
+.albums-section h2 {
+    color: #333333;
+}
+
+.card {
+    margin-bottom: 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #f8f9fa;
+}
+
+.contact-section h2 {
+    color: #333333;
+}
+
+
+.accordion-button.collapsed {
+    background-color: #004080;
+}
+
+.accordion-body {
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #e5e5e5;
+    border-radius: 0 0 8px 8px;
+
+}.accordion-button {
+    background-color: #007bff; /* Warna latar belakang yang lebih menarik */
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease; /* Animasi saat hover */
+}
+
+.accordion-button:hover {
+    background-color: #0056b3; /* Warna latar belakang yang berbeda saat hover */
+
+}
+
+/* Footer */
+.footer-section {
+    background-color: #343a40; /* Ubah warna latar belakang */
+    padding: 20px 0; /* Berikan ruang yang cukup */
+    text-align: center;
+}
+
+.footer-section a {
+    color: #ffffff;
+}
+
+.footer-section a:hover {
+    text-decoration: underline; /* Efek underline saat hover */
+}
